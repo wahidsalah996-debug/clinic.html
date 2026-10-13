@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>عيادة الابتسامة لطب الأسنان</title>
+<style>
+  :root{--main:#0ea5a4;--dark:#0f172a;--soft:#f0fdfa;--text:#334155}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:Tahoma,Arial,sans-serif;color:var(--text);line-height:1.8}
+  header{position:sticky;top:0;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.08);display:flex;justify-content:space-between;align-items:center;padding:12px 18px;z-index:10}
+  .logo{font-weight:bold;font-size:18px;color:var(--main)}
+  .call{background:var(--main);color:#fff;text-decoration:none;padding:8px 16px;border-radius:20px;font-size:14px;font-weight:bold}
+  .hero{background:linear-gradient(135deg,#0ea5a4,#0b6e8a);color:#fff;text-align:center;padding:60px 20px 70px}
+  .hero h1{margin:0 0 12px;font-size:28px;line-height:1.5}
+  .hero p{margin:0 0 25px}
+  .btn{display:inline-block;padding:13px 26px;border-radius:30px;text-decoration:none;font-weight:bold;margin:5px}
+  .btn-w{background:#fff;color:var(--main)}
+  .btn-o{border:2px solid #fff;color:#fff}
+  section{max-width:760px;margin:0 auto;padding:40px 20px}
+  h2{text-align:center;color:var(--dark);margin:0 0 22px}
+  h2::after{content:"";display:block;width:50px;height:4px;background:var(--main);border-radius:2px;margin:8px auto 0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+  .card{background:var(--soft);padding:22px;border-radius:16px;text-align:center}
+  .ic{font-size:34px}
+  .card h3{margin:6px 0 4px;color:var(--dark);font-size:17px}
+  .card p{margin:0;font-size:14px}
+  .stats{background:var(--dark);color:#fff}
+  .stats .grid{text-align:center}
+  .stats b{display:block;font-size:30px;color:#5eead4}
+  .review{background:#fff;border:1px solid #e2e8f0;padding:18px;border-radius:14px;margin-bottom:12px}
+  .review small{color:var(--main);font-weight:bold}
+  .book{background:var(--soft)}
+  .box{background:#fff;padding:22px;border-radius:16px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+  input,select{width:100%;padding:13px;margin-bottom:12px;border:1px solid #cbd5e1;border-radius:10px;font-size:16px;font-family:inherit}
+  .send{width:100%;background:#25d366;color:#fff;border:none;padding:14px;border-radius:10px;font-size:18px;font-weight:bold}
+  footer{background:var(--dark);color:#cbd5e1;text-align:center;padding:25px 20px;font-size:14px}
+  .wa{position:fixed;bottom:18px;left:18px;background:#25d366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,.25)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🦷 عيادة الابتسامة</div>
+  <a class="call" href="tel:+21366780427">اتصل الآن</a>
+</header>
+
+<div class="hero">
+  <h1>ابتسامة صحية وجميلة<br>بأيدٍ متخصصة</h1>
+  <p>كشف، تنظيف، تبييض، تقويم وزراعة أسنان بأحدث الأجهزة</p>
+  <a class="btn btn-w" href="#book">احجز موعدك</a>
+  <a class="btn btn-o" href="https://wa.me/0666780427">واتساب</a>
+</div>
+
+<section>
+  <h2>خدماتنا</h2>
+  <div class="grid">
+    <div class="card"><div class="ic">🪥</div><h3>تنظيف وتبييض</h3><p>ابتسامة أنصع في جلسة واحدة.</p></div>
+    <div class="card"><div class="ic">😁</div><h3>تقويم الأسنان</h3><p>خيارات متعددة تناسب كل عمر.</p></div>
+    <div class="card"><div class="ic">🦷</div><h3>زراعة الأسنان</h3><p>حلول دائمة بجودة عالية.</p></div>
+    <div class="card"><div class="ic">👶</div><h3>أسنان الأطفال</h3><p>تعامل لطيف في أجواء مريحة.</p></div>
+  </div>
+</section>
+
+<div class="stats">
+  <section>
+    <div class="grid">
+      <div><b>+10</b>سنوات خبرة</div>
+      <div><b>+5000</b>مريض سعيد</div>
+      <div><b>4.9</b>تقييم المرضى</div>
+    </div>
+  </section>
+</div>
+
+<section>
+  <h2>آراء المرضى</h2>
+  <div class="review">"تعامل راقٍ ونتيجة ممتازة، أنصح بها بشدة."<br><small>— أحمد</small></div>
+  <div class="review">"لم أشعر بأي ألم، والمواعيد دقيقة."<br><small>— سارة</small></div>
+</section>
+
+<div class="book" id="book">
+  <section>
+    <h2>احجز موعدك</h2>
+    <div class="box">
+      <input type="text" id="n" placeholder="اسمك الكريم">
+      <select id="s">
+        <option>كشف عام</option>
+        <option>تنظيف وتبييض</option>
+        <option>تقويم الأسنان</option>
+        <option>زراعة الأسنان</option>
+        <option>أسنان الأطفال</option>
+      </select>
+      <button class="send" onclick="book()">أرسل الطلب عبر واتساب</button>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <p>📍 العنوان: اكتب عنوان العيادة هنا</p>
+  <p>⏰ من السبت إلى الخميس: 9 صباحًا - 8 مساءً</p>
+  <p>تصميم تجريبي لأغراض العرض</p>
+</footer>
+
+<a class="wa" href="https://wa.me/000000000000">💬</a>
+
+<script>
+  function book() {
+    var name = document.getElementById("n").value.trim();
+    var service = document.getElementById("s").value;
+    if (!name) { alert("من فضلك اكتب اسمك"); return; }
+    var msg = "مرحبًا، أنا " + name + " وأريد حجز موعد: " + service;
+    window.open("https://wa.me/000000000000?text=" + encodeURIComponent(msg), "_blank");
+  }
+</script>
+</body>
+</html>
