@@ -1,15 +1,23 @@
-# Legacy Dental Clinic Website Prototype
+# Arabic Dental Clinic Website
 
-This repository contains an earlier standalone HTML prototype for a dental clinic landing page.
+An Arabic-language dental-practice landing-page template with right-to-left layout, service information, and appointment-oriented calls to action.
 
-## Current featured demo
-For the maintained portfolio presentation, visit:
-- [Dental clinic live demo](https://wahidsalah996-debug.github.io/portfolio/dental-clinic.html)
-- [Main portfolio](https://wahidsalah996-debug.github.io/portfolio/)
+## Source and related work
+
+- **HTML file:** [clinic.html](https://github.com/wahidsalah996-debug/clinic.html/blob/main/clinic.html)
+- **Featured multilingual website:** https://wahidsalah996-debug.github.io/portfolio/dental-clinic.html
+- **Main portfolio:** https://wahidsalah996-debug.github.io/portfolio/
 
 ## Run locally
-Open `clinic.html` in a modern browser.
 
-## Status
-Legacy/experimental duplicate retained for reference. It is a static demo, not a patient-management system. Replace sample content and review accessibility, privacy, and all contact details before real-world use.
+Open `clinic.html` in a modern browser. The page uses plain HTML, CSS, and JavaScript.
 
+## Customization before launch
+
+Replace the sample clinic name, address, hours, services, and other business information with verified details. The appointment form needs to be connected to the clinic's approved booking or contact workflow before it can receive real requests. Check mobile behavior, accessibility, privacy notices, and all links before publication.
+
+This page is a front-end website template; it does not include patient-record storage or a secure appointment backend.
+
+## Contact
+
+For website customization inquiries: [wahidsalah996@gmail.com](mailto:wahidsalah996@gmail.com)
