@@ -14,7 +14,7 @@ Open `clinic.html` in a modern browser. The page uses plain HTML, CSS, and JavaS
 
 ## Customization before launch
 
-Replace the sample clinic name, address, hours, services, and other business information with verified details. The appointment form needs to be connected to the clinic's approved booking or contact workflow before it can receive real requests. Check mobile behavior, accessibility, privacy notices, and all links before publication.
+Configure the clinic's approved name, address, opening hours, services, and other business information using verified details. The appointment form needs to be connected to the clinic's approved booking or contact workflow before it can receive real requests. Check mobile behavior, accessibility, privacy notices, and all links before publication.
 
 This page is a front-end website template; it does not include patient-record storage or a secure appointment backend.
 
